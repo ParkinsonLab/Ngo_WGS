@@ -1,0 +1,16 @@
+#For V2
+
+[Settings]
+output_directory= /gpfs/fs0/scratch/j/jparkin/dcarru/ngo_WGS/IPNC/data/PopNet/continent
+input_path= /gpfs/fs0/scratch/j/jparkin/dcarru/ngo_WGS/IPNC/data/PopNet/continent/continent_variant_table.tsv
+
+reference= None
+
+section_length= 5000
+S1_iVal= 8
+S1_piVal= 19
+S2_iVal= 4.5
+S2_piVal= 2.5
+
+#Using the autogroup feature overrides S2_iVal and S2_piVal
+autogroup = FALSE
